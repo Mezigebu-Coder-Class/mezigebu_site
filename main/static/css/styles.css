@@ -1,0 +1,109 @@
+/* Custom styles for Mezigebu Site */
+ .search-bar {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 40%;
+    
+    
+}
+
+ .search-bar {
+    max-width: 400px; /* Set a maximum width for the search bar */
+    width: 100%; /* Full width up to max-width */
+    
+}
+
+
+ .search-bar .form-inline {
+    display: flex;
+    justify-content: center; /* Center the form content */
+}
+
+ .search-bar .form-control {
+    border-radius: 0.25rem;
+    margin-right: 10px; /* Add margin here for spacing */
+}
+
+ .search-bar .btn {
+    border-radius: 0.25rem;
+}
+.header{
+    background-color: #0769b0eb;
+    text-overflow: ellipsis;
+    color: azure;
+}
+
+.footer {
+    position:fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: right;
+    padding: 10px;
+    color: brown;
+    
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: right;
+    }
+}
+/* Ensure this file is linked in your base.html file */
+
+.form-control {
+    border-radius: 5px;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+form {
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    text-align: center;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    text-align: center;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+    
+}
+/* Custom Stylesheet */
+
+/* General Link Styles */
+.custom-link {
+    display: inline-block; /* Ensure padding and margins work as expected */
+    padding: 10px 20px; /* Add padding around the text */
+    border: 2px solid transparent; /* Create space for border, initially transparent */
+    border-radius: 12px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Smooth transition for hover effects */
+  }
+  
+  /* Hover Effect */
+  .custom-link:hover {
+    background-color: hsl(303, 18%, 25%); /* Background color on hover */
+    color: #000000; /* Text color on hover */
+    border-color: #ffffff; /* Border color on hover */
+  }
+  
+  /* Custom Margin */
+  .custom-margin {
+    margin-right: 15px;
+    margin-left: 20px;
+    margin-top: 10px; /* Adjust margin as needed */
+  }
+  
+  /* Custom Navbar Brand Styles */
+  .navbar-brand {
+    font-size: 1.25rem; /* Adjust font size as needed */
+  }
+  
